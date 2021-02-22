@@ -1,2 +1,2 @@
-# riazaham.github.io
+# Riaz Ahamed - NUS CEG
 Welcome to my portfolio!
