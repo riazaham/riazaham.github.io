@@ -6475,7 +6475,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-	background-color: #1abc9c !important;
+	background: linear-gradient(to bottom right, powderBlue, #1abc9c, powderBlue);
+	/* background-color: #1abc9c !important; */
 }
 
 a.bg-primary:hover,
