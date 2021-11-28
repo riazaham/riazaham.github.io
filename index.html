@@ -81,6 +81,18 @@
                             <img class="img-fluid" src="assets/img/neo4jDevMgmt/landingPage.png" alt="" />
                         </div>
                     </div>
+                    <!-- Portfolio Item 10-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item" data-toggle="modal" data-target="#portfolioModal10">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                    <p>Flutter, Data visualisation:<br>EMeter App</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/eMeter/landingPage.png" alt="" />
+                        </div>
+                    </div>
                     <!-- Portfolio Item 8-->
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item" data-toggle="modal" data-target="#portfolioModal8">
@@ -1026,12 +1038,88 @@
                                         - Neo4j and Neosemantics: This is to import/export the data model and store it in a graph database<br/>
                                         - GraphQL API and Neo4j/GraphQL JS library: This is to create the API to expose the data for the app<br/>
                                         <br/>
+                                        The app is fully functioning and I added it as a service to a larger smart facility management app.
                                         Some features of the app are as follows:<br/>
                                         - Navigate between parent and child building assets/locations<br/>
                                         - View the child assets as a list<br/>
                                         - Search any asset and directly navigate to that asset<br/>
                                         - View detailed device info<br/>
                                         - Navigate back to home page with one click<br/>
+                                    </p>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary" data-dismiss="modal">
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 10 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-labelledby="portfolioModal10Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title -->
+                                    <div class="text-center">
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal10Label">EMeter App</h2>
+                                    </div>
+                                    <!-- Icon Divider -->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image -->                                  
+                                    <div id="carousel10" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#carousel10" data-slide-to="0" class="active"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="assets/img/eMeter/landingPage.png" alt="First slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carousel10" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel10" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <!-- Portfolio Modal - Text -->
+                                    <p class="mb-5">
+                                        <br/>
+                                        This is a project I did as a GovTech intern. The idea behind this project is to create a data  
+                                        visualisation app for users to view and monitor eMeter data. (building assets) and view information 
+                                        about the devices in the location. There are 2 kinds of view perspective, viewing individual emeters
+                                        and viewing all emeters. There are 3 different kinds of displays (bar chart, pie chart and line chart) 
+                                        representing different data. The challenge behind this app is to fetch large amounts of timeseries data,
+                                        organise the data in a usable structure and fit them to the charts. One of the major aims is to optimise
+                                        the time and space efficiency for a better user experience. The app is fully functioning and I added it
+                                        as a service to a larger smart facility management app.
+                                        <br/><br/>
+                                        Some features of the app are as follows:<br/>
+                                        - View energy usage by month in a bar chart. This usage can be toggled by year<br/>
+                                        - View energy usage in comparison with other emeters in a pie chart. This usage can be toggled by year. <br/>
+                                        - The pie chart is interactive such that it highlights the selected pie section<br/>
+                                        - View usage of various other parameters of an individual eMeter in a line chart. 
+                                        This timeseries data can be toggled by time period (day, week, month). <br/>
+                                        - View usage of any parameter of all eMeters in a line chart.
+                                        This timeseries data can be toggled by time period and paramter. <br/>
+                                        - The line chart is interactive such that only the selected line charts are displayed/changed dynamically<br/>
                                     </p>
                                     <div class="text-center">
                                         <button class="btn btn-primary" data-dismiss="modal">
